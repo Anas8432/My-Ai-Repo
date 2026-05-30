@@ -10,10 +10,13 @@ my ai website built using:
 
 # setup
 
+
 frontend : 
 
 npm install
 npm run dev
+
+
 
 Backend:
 

@@ -19,6 +19,7 @@ const run = async (prompt) => {
       }),
     })
 
+
     const data = await response.json()
 
     if (!data.success) {
@@ -48,6 +49,7 @@ const ContextProvider = (props) => {
   const [showResult, setShowResult] = useState(false)
   const [loading, setLoading] = useState(false)
   const [resultData, setResultData] = useState([])
+
 
 
   const delayPara = (index, nextWord) => {
@@ -101,6 +103,7 @@ const ContextProvider = (props) => {
       return updated
     })
 
+    
     const response = await run(finalPrompt)
 
 

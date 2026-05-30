@@ -6,6 +6,7 @@ const App = () => {
 
   const [open, setOpen] = useState(false)
 
+
   return (
     <>
       <div className="flex animate-fadeIn duration-1000">
@@ -21,5 +22,6 @@ const App = () => {
     </>
   )
 }
+
 
 export default App

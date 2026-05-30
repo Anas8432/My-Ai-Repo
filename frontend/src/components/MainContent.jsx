@@ -21,7 +21,6 @@ import geminiLogo from "../assets/geminiLogo.png"
 
 const MainContent = ({ open, setOpen }) => {
 
-
   const cards = [
     {
       text: "Suggest top 10 webseries.",
@@ -41,7 +40,6 @@ const MainContent = ({ open, setOpen }) => {
     },
   ]
 
-
   const {
     input,
     setInput,
@@ -59,6 +57,7 @@ const MainContent = ({ open, setOpen }) => {
     setInput("")
   }
 
+  
 
   return (
     <div className="flex-1 w-full relative bg-black">

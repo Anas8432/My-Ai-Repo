@@ -1,5 +1,8 @@
 const { generateResponse } = require("../services/geminiService");
 
+
+
+
 const chatWithAI = async (req, res) => {
     try {
 
@@ -29,6 +32,8 @@ const chatWithAI = async (req, res) => {
         });
     }
 };
+
+
 
 module.exports = {
     chatWithAI
